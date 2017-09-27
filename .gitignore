@@ -288,3 +288,7 @@ __pycache__/
 *.xsd.cs
 
 .vs/
+
+/DinkToPfd.*/Files
+
+libwkhtmltox.dll
