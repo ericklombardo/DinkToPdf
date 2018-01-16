@@ -8,7 +8,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>DinkToPdf</AssemblyName>
     <PackageId>DinkToPdf</PackageId>
-    <NetStandardImplicitPackageVersion>2.0.0</NetStandardImplicitPackageVersion>
+    <NetStandardImplicitPackageVersion>2.0.1</NetStandardImplicitPackageVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
@@ -24,10 +24,10 @@
   <ItemGroup>
     <PackageReference Include="System.Collections.Concurrent" Version="4.3.0" />
     <PackageReference Include="System.Globalization" Version="4.3.0" />
-    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
     <PackageReference Include="System.Runtime" Version="4.3.0" />
     <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
-    <PackageReference Include="System.Threading.Thread" Version="4.0.0" />
+    <PackageReference Include="System.Threading.Thread" Version="4.3.0" />
   </ItemGroup>
 
   <Target Name="PostcompileScript" AfterTargets="Build">
